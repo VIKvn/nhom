@@ -81,3 +81,22 @@
     background-color: dimgrey;
     flex: auto;
 }
+
+/* Đảm bảo có hiệu ứng chuyển màu mượt mà */
+.text-b {
+    transition: color 0.3s ease;
+  }
+  
+  /* Khi di chuột vào chữ A bên ngoài, chữ B trong bảng đổi màu */
+  .to1:hover ~ table .to1doimau {
+    color: red;
+  }
+  .to2:hover ~ table .to2doimau {
+    color: red;
+  }
+  .to3:hover ~ table .to3doimau {
+    color: red;
+  }
+  .to4:hover ~ table .to4doimau {
+    color: red;
+  }

@@ -1,37 +1,33 @@
 .tieude {
     background-color: rgb(47, 146, 146);
-    flex: auto;
-    padding: 20px;
-    font-size: 25px;
+    padding: 25px;
 }
-
+.left {
+  background-color: darkgrey;
+  width: 150px;
+  height: 150px;
+  float: left; /*Tin 12 chân trời sáng tạo*/
+}
 .tieude a {
     margin-left: 15px;
     margin-right: 15px;
 }
-.tieude span {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
 .tieude li {
     display: inline;
 }
-
 .tieude #s:hover {
     padding-bottom: 270px;
 }
-
 .chu {
     font-size: 0; /* Ẩn chữ ban đầu */
 }
-
 .container:hover .chu {
     font-size: 25px; /* Hiển thị chữ trong lớp chu khi di chuột qua container */
 }
 .container:hover .gone {
     font-size: 0px; /* làm cho chữ trong lớp gone bị ẩn khi di chuột qua container */
 }
+
 
 
 
@@ -82,11 +78,6 @@
     flex: auto;
 }
 
-/* Đảm bảo có hiệu ứng chuyển màu mượt mà */
-.text-b {
-    transition: color 0.3s ease;
-  }
-  
   /* Khi di chuột vào chữ A bên ngoài, chữ B trong bảng đổi màu */
   .to1:hover ~ table .to1doimau {
     color: red;
@@ -99,4 +90,10 @@
   }
   .to4:hover ~ table .to4doimau {
     color: red;
+  }
+
+  .border{
+    border: 1px solid black;
+    font-size: 30px;
+    margin: 10px;
   }

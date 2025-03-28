@@ -7,6 +7,7 @@
   width: 150px;
   height: 150px;
   float: left; /*Tin 12 chân trời sáng tạo*/
+  display: inline;
 }
 .tieude a {
     margin-left: 15px;

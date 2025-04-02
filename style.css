@@ -1,0 +1,104 @@
+
+/*body{
+  color: rgb(255, 255, 255);
+  background-color: #a75252;
+}*/
+.tieude {
+  background-color: #dd8282;
+  padding: 25px;
+}
+.left {
+background-color: darkgrey;
+width: 87px;
+height: 87px;
+float: left; /*Tin 12 chân trời sáng tạo*/
+}
+.tieude a {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.tieude li {
+  display: inline;
+}
+.tieude #s:hover {
+  padding-bottom: 270px;
+}
+.chu {
+  font-size: 0; /* Ẩn chữ ban đầu */
+}
+.container:hover .chu {
+  font-size: 15px; /* Hiển thị chữ trong lớp chu khi di chuột qua container */
+}
+.container:hover .gone {
+  font-size: 0px; /* làm cho chữ trong lớp gone bị ẩn khi di chuột qua container */
+}
+
+a:link{
+  color: #9b0000;
+}
+a:visited{
+  color: rgb(86, 17, 160);
+}
+td{
+  text-align: center;
+}
+
+.banner{
+  background: url(img/hoa.jpg); /* t ko biết t thấy nó trong sách nên thêm vô test thôi*/
+  background-size: cover;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  text-align: center !important;
+  color: #ff0000 !important;
+  text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+
+}
+.slogan {
+
+  background-color: rgb(52, 43, 131) !important;
+  color: white;
+  text-align: center !important;
+  width: 100%;
+  padding-right: 0.5rem;
+  padding-left: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  }
+  
+  .row {    
+  display: flex;    
+  flex-wrap: wrap;    
+  margin-top: -1;    
+  max-width: 100%;    
+  padding-right: 3rem;
+  padding-left: 3rem;    
+  }
+  
+  .block_3 {
+  flex: 1100 auto;    
+  width: 33.33333333%;    
+  }
+.footer{
+  background-color: #dd8282;
+  flex: auto;
+}
+
+/* Khi di chuột vào chữ toX bên ngoài, chữ toXdoimau trong bảng đổi màu */
+.to1:hover ~ table .to1doimau {
+  color: red;
+}
+.to2:hover ~ table .to2doimau {
+  color: red;
+}
+.to3:hover ~ table .to3doimau {
+  color: red;
+}
+.to4:hover ~ table .to4doimau {
+  color: red;
+}
+
+.border{
+  border: 2px solid ;
+  font-size: 20px;
+  margin: 10px;
+}

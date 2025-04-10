@@ -36,7 +36,7 @@ td{
 }
 
 .banner{
-  background: url(img/hoa.jpg); /* t ko biết t thấy nó trong sách nên thêm vô test thôi*/
+  background: url(img/hoa.jpg); 
   background-size: cover;
   padding-top: 12rem;
   padding-bottom: 12rem;

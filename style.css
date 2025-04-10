@@ -23,15 +23,7 @@ float: left; /*Tin 12 chân trời sáng tạo*/
 .tieude #s:hover {
   padding-bottom: 270px;
 }
-.chu {
-  font-size: 0; /* Ẩn chữ ban đầu */
-}
-.container:hover .chu {
-  font-size: 15px; /* Hiển thị chữ trong lớp chu khi di chuột qua container */
-}
-.container:hover .gone {
-  font-size: 0px; /* làm cho chữ trong lớp gone bị ẩn khi di chuột qua container */
-}
+
 
 a:link{
   color: #9b0000;
